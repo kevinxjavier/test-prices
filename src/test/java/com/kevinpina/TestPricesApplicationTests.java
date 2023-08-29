@@ -26,7 +26,7 @@ class TestPricesApplicationTests {
 	private MockMvc mvc;
 
 	@Test
-	void giveTest1() throws Exception {
+	void givenTest1() throws Exception {
 
 	    mvc.perform(get("/api/price/35455/2020-06-14 10:00:00")
 	      .contentType(MediaType.APPLICATION_JSON))
@@ -43,7 +43,7 @@ class TestPricesApplicationTests {
 	}
 
 	@Test
-	void giveTest2() throws Exception {
+	void givenTest2() throws Exception {
 
 	    mvc.perform(get("/api/price/35455/2020-06-14 16:00:00")
 	      .contentType(MediaType.APPLICATION_JSON))
@@ -60,7 +60,7 @@ class TestPricesApplicationTests {
 	}
 
 	@Test
-	void giveTest3() throws Exception {
+	void givenTest3() throws Exception {
 
 	    mvc.perform(get("/api/price/35455/2020-06-14 21:00:00")
 	      .contentType(MediaType.APPLICATION_JSON))
@@ -77,7 +77,7 @@ class TestPricesApplicationTests {
 	}
 
 	@Test
-	void giveTest4() throws Exception {
+	void givenTest4() throws Exception {
 
 	    mvc.perform(get("/api/price/35455/2020-06-15 10:00:00")
 	      .contentType(MediaType.APPLICATION_JSON))
@@ -94,7 +94,7 @@ class TestPricesApplicationTests {
 	}
 
 	@Test
-	void giveTest5() throws Exception {
+	void givenTest5() throws Exception {
 
 	    mvc.perform(get("/api/price/35455/2020-06-16 21:00:00")
 	      .contentType(MediaType.APPLICATION_JSON))
