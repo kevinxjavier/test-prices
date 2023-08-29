@@ -43,6 +43,7 @@ $ mvn spring-boot:run
 * [Swagger](http://localhost:8080/swagger-ui/index.html)
 
 ### Test 
+Test can be founds in src/test/java also with a Temrinal or Postman we can test them using the following curls (after running $ mvn spring-boot:run):
 ```
 Test 1 $ curl --location --request GET 'http://localhost:8080/api/price/35455/2020-06-14%2010:00:00'
 Test 2 $ curl --location --request GET 'http://localhost:8080/api/price/35455/2020-06-14%2016:00:00'
