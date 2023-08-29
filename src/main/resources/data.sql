@@ -1,0 +1,4 @@
+INSERT INTO prices (id, brand_id, start_date, end_date, price_list, product_id, priority, price, curr) VALUES ('41bf0d9b-f653-43f5-834f-b1072280c0de', 1, '2020-06-14 00.00.00', '2020-12-31 23.59.59', 1, 35455, 0, 35.50, 'EUR');
+INSERT INTO prices (id, brand_id, start_date, end_date, price_list, product_id, priority, price, curr) VALUES ('f0112373-c06a-48bc-b226-c86805a33b04', 1, '2020-06-14 15.00.00', '2020-06-14 18.30.00', 2, 35455, 1, 25.45, 'EUR');
+INSERT INTO prices (id, brand_id, start_date, end_date, price_list, product_id, priority, price, curr) VALUES ('ad1c4012-15c7-437c-ad11-b7452aeef931', 1, '2020-06-15 00.00.00', '2020-06-15 11.00.00', 3, 35455, 1, 30.50, 'EUR');
+INSERT INTO prices (id, brand_id, start_date, end_date, price_list, product_id, priority, price, curr) VALUES ('de1551ba-b7db-4c48-8c23-20ab9d9060ae', 1, '2020-06-15 16.00.00', '2020-12-31 23.59.59', 4, 35455, 1, 38.95, 'EUR');
