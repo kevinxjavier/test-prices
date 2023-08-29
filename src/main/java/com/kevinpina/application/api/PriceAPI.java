@@ -22,12 +22,12 @@ import jakarta.validation.Valid;
 @RequestMapping("/api")
 public interface PriceAPI {
 
-	@Operation(summary = "Retrieve the price by productId", description = "Return as output data: product identifier, chain identifier, rate to apply, dates of application and final price to apply.", tags = {
+	@Operation(summary = "Retrieve the price by productId and specific date", description = "Return as output data: product identifier, chain identifier, rate to apply, dates of application and final price to apply.", tags = {
 			"Price" })
 	@ApiResponses({
 			@ApiResponse(responseCode = "200", content = {
 					@Content(schema = @Schema(implementation = PriceDTO.class), mediaType = "application/json") }),
-			@ApiResponse(responseCode = "404", description = "Products Not found", content = {
+			@ApiResponse(responseCode = "404", description = "Price Not found", content = {
 					@Content(schema = @Schema()) }),
 			@ApiResponse(responseCode = "500", description = "Unexpected error", content = {
 					@Content(schema = @Schema()) }) })
